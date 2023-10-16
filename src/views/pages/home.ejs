@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>TechService</title>
+    <script src="../javascript/script.js"></script>
+</head>
+<body>
+  <header>
+    <%- include('../partials/header'); %>
+  </header>
+
+    <div id="demo" class="carousel slide" data-bs-ride="carousel" style="margin-top:17px;">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+          
+        </div>
+        
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner"style="margin-top:-25px;">
+          <div class="carousel-item active">
+            <img src="/images/first.jpg" alt="Los Angeles" class="d-block" style="width:100%;">
+            <div class="carousel-caption">
+              <h2>Using Cutting Edge-Technologies to build innovative solutions</h2>
+              
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/images/innovative.jpg" alt="Chicago" class="d-block" style="width:100%;">
+            <div class="carousel-caption">
+              <h1>Innovation is in our DNA</h1>
+             
+            </div>
+            
+          </div>
+          <div class="carousel-item">
+            <img src="/images/data.jpg" alt="New York" class="d-block" style="width:100%;">
+            <div class="carousel-caption"style="margin-right :900px;">
+              <h1>Belive in YOU</h1>
+            </div>  
+          </div>
+          <div class="carousel-item">
+            <img src="/images/values.jpg" alt="New York" class="d-block" style="width:100%;">
+            <div class="carousel-caption" style="margin:100px 10px 200px 520px;">
+              <h1>Diversity, Equity and Integrity</h1>
+            </div>  
+          </div>
+        </div>
+      
+       
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+      
+ 
+ <div class="box" id="item1"style="width: 1300px; height:600px; background-color:black;outline: 2px solid white;box-shadow:0px 15px 15px   grey; ">
+    <div class="title"><h1   style="color: white; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; padding:30px;" >NETWORK SERVICES</h1></div>
+        <div class="about">
+          <p style="display: inline; ">The communications industry is entering the next phase of revolution fueled by 5G, <br>Hyper-Automation, Artificial Intelligence/Machine Learning, and Private/Public Cloud.
+            <br>The convergence of these technological and business model transformations is creating <br>a whole new possibilities for our customers - to reimagine and reshape the future of <br>consumer and enterprise services. 
+            The challenges in this new world cannot be solved with <br>traditional processes and redundant practices, instead requires skilled partners who can provide solutions.Tech Mahindra is the world's largest independent 
+            network services provider  with a  proven track record in delivering best-in-class services.<br><br></p>
+            <div class="price"> Rs.7000</div>
+            <button class="Hbuttons" onclick="addtocart(item1);">ADD TO CART</button>
+        </div>
+            <img src="/images/network.png" placeholder="network" style="display: inline;margin:-10px 0px 50px 800px; width:500px;height:400px;">
+
+ </div>
+
+ <div class="box" id="item2" style="width: 1300px; height:600px; background-color:black;outline: 2px solid white;box-shadow:0px 15px 15px   grey;">
+    <div class="title"><h1 style="color: white; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; padding:30px;" >DATA ANALYTICS</h1></div>
+        <div class="about">
+          <p style="display: inline; ">The Smart Analytics Lab will focus on developing data analytics solutions on Google Cloud 
+            to help enterprises across the globe to modernize their data ecosystems and encourage them to embark on their journey to become data driven enterprises.
+             It will harness the capabilities of Techservice’s intellectual property (IP) and in-house accelerators customized for enterprises to enhance their customer’s digital journey.
+              This lab aims to empower enterprises to accelerate their data cloud journeys as they move towards a digital-first future.<br><br></p>
+              <div class="price"> Rs.4000</div>
+            <button class="Hbuttons" onclick="addtocart(item2);">ADD TO CART</button>
+        </div>
+            <img src="/images/network.png" style="display: inline;margin:-10px 0px 50px 800px; width:500px;height:400px;">
+
+ </div>
+
+ <div class="box" id="item3" style="width: 1300px; height:600px; background-color:black;outline: 2px solid white;box-shadow:0px 15px 15px   grey;">
+    <div class="title"><h1 style="color: white; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; padding:30px;" >INFRASTUCTURE AND CLOUD SERVICES</h1></div>
+        <div class="about">
+          <p style="display: inline; ">TechService helps enterprises accelerate their digital transformation with our comprehensive suite of offerings that covers the entire 
+            IT infrastructure stack. With our platform-enabled solutions powered by AI and Automation, we help enterprises accelerate their journey to a digital future. Our focus is 
+            on helping organizations develop a future ready infrastructure aligned to their core business needs.<br><br> </p>
+            <div class="price"> Rs.6000</div>
+            <button class="Hbuttons" onclick="addtocart(item3);">ADD TO CART</button>
+        </div>
+            <img src="/images/network.png" style="display: inline;margin:-10px 0px 50px 800px; width:500px;height:400px;">
+
+ </div>
+
+ <div class="box" id="item4" style="width: 1300px; height:600px; background-color:black;outline: 2px solid white;box-shadow:0px 15px 15px   grey;">
+   <div class="title"> <h1 class="title"style="color: white; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; padding:30px;" >ARTIFICIAL INTELLIGENCE</h1></div>
+        <div class="about">
+          <p style="display: inline; ">Tech Mahindra’s design thinking led approach and frameworks help identify AI opportunities lurking in your organization. Our experts identify 
+            the right AI strategy and roadmap for your organization.Our principle of fail fast to learn faster is enabled by an ecosystem of experimentation. Our AI Labs for innovative 
+            opportunities, enables us along with partners or clients to co-innovate.We help you leverage your data and AI assets across the organization coupled with our AI solutions in order to scale up on your AI journey.
+            Our AI enablement programs can help accelerate the democratization of AI.<br><br> </p>
+            <div class="price"> Rs.5000</div>
+            
+            <button class="Hbuttons"onclick="addtocart(item4);">ADD TO CART</button>
+        </div>
+            <img src="/images/network.png" style="display: inline;margin:-10px 0px 50px 800px; width:500px;height:400px;">
+
+ </div>
+<div class="userinfo" style="margin: 50px; outline: 2px solid black;outline-offset:10px;">
+  <h1 style="margin:40px 500px;">USER DASHBOARD</h1>
+      <h2>Name: <%=user.nam%></h2>
+      <h2>Email: <%=user.mail%></h2>
+</div>
+ <div class="cart" id="cart">
+  <div class="title"><h2>CART</h2></div><hr/>
+  <div id="title" class="ctitle" style="display: inline-block; margin:20px; "></div>
+</div> 
+</body>
+</html>

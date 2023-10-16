@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <title>TechService</title>
+    
+ 
+</head>
+<body>
+    <header>
+        <%- include('../partials/header'); %>
+      </header>
+    <div class="container"style="display:block;">
+        <div class="form-container">
+            <div class="form-toggle">
+                <button id="login-toggle">Login</button>
+                <button id="register-toggle">Register</button>
+            </div>
+            <form id="login-form" class="login" action="/login" method="post">
+                <h2>Login</h2>
+                <input type="text" placeholder="Username" name="email" id="mail" required>
+                <input type="password" placeholder="Password" name="password" id="pin" required>
+                <button type="submit" style="margin-top: 50px;" >LOGIN</button>
+            </form>
+            <form id="register-form" class="register" action="/home" method="post">
+                <h2>Register</h2>
+                <input type="text" placeholder="Username" name="username" id="name" required>
+                <input type="email" placeholder="Email" name="email" id="mail" required>
+                <input type="password" placeholder="Password" name="pd" id="pass" required>
+                <input type="password" placeholder="confirm Password" name="cpd" id="conpass" required>
+                <button type="submit"style="margin-top: 30px;"onclick="signin_validation()">REGISTER</button>
+            </form>
+        </div>
+    </div>
+    
+    <script src="/javascript/script.js" >
+       
+         </script>
+</body>
+</html>
