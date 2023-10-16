@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f6f5f7;
+   display: block;
+   justify-content: center;
+     
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 450px;
+   margin: 100px 0px 100px 550px;
+   border-radius: 20px;
+   
+}
+
+.form-container {
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    
+    flex-direction: column;
+    align-items: center;
+}
+#register-form{
+    display: none;
+}
+h2 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #333;
+    border: none;
+    color: #fff;
+    padding: 15px;
+    width:250px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.form-toggle {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    background-color:black;
+    width:auto;
+    height: 70px;
+  }
+  
+  li {
+    float: right;
+    margin-top: 10px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+
+  .carousel-item{
+    height:600px;
+    filter: brightness(80%);
+   
+  }
+  .carousel-caption{
+   margin-right:700px;
+    margin-bottom: 200px;
+    margin-left: 10px;
+    
+  }
+ .box{
+  margin: 100px;
+  outline: 3px solid white;
+  outline-offset: -10px;
+  
+ }
+  .about{
+    height: 300px;
+    position: absolute;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-right: 600px;
+    color: white;
+    padding:50px;
+    line-height: 170%;
+    font-size: large;
+  }
+  .Hbuttons{
+    background-color: white; 
+    color:black; 
+    padding:10px 20px;
+    margin:40px 50px;
+    font-size:20px;
+    border-color:black;
+    border-radius:10px;
+    cursor: pointer;
+}
+.Hbuttons:hover {
+    background-color:grey;
+    transition: 0.7s;
+}
+.cart{
+  margin:50px;
+}
+.cartimg>img{
+  width:400px;
+  height:300px;
+  margin:20px;
+}
